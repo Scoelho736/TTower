@@ -2,30 +2,31 @@
 
 @section('content')
 <br>
-<form class="row g-1  position-absolute top-100" style="height: 400px;width:950px;margin-top:40px;margin-left:30px">
-  <div class="col-md-2">
-    <label for="inputEmail4" class="form-label">Nome</label>
-    <input type="email" class="form-control" id="inputEmail4">
+<form class="row g-1 bg-black-50 border border-secondary rounded
+position-absolute top-100" style="height: 400px;width:900px;margin-top:40px;margin-left:30px">
+  <div class="col-md-4" style="margin-top:40px;margin-left:70px">
+    <label  class="form-label text-secondary">Nome Morador</label>
+    <input  class="form-control" id="name">
   </div>
-  <div class="col-md-3">
-    <label for="inputPassword4" class="form-label">Apto</label>
-    <input type="password" class="form-control" id="inputPassword4">
+  <div class="col-md-3"style="margin-top:40px">
+    <label  class="form-label text-secondary">Bloco</label>
+    <input class="form-control" id="bloco">
   </div>
-  <div class="col-2">
-    <label for="inputAddress" class="form-label">Andar</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  <div class="col-3"style="margin-top:40px">
+    <label  class="form-label text-secondary">Apto</label>
+    <input  class="form-control" id="apto" >
   </div>
-  <div class="col-3">
-    <label for="inputAddress2" class="form-label">Numero Apto</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  <div class="col-4"style="margin-top:-15px;margin-left:70px">
+    <label class="form-label text-secondary">Vaga de Garagem</label>
+    <input  class="form-control" id="garagem" >
   </div>
-  <div class="col-md-3">
-    <label for="inputCity" class="form-label">Ramal</label>
-    <input type="text" class="form-control" id="inputCity">
+  <div class="col-md-3"style="margin-top:-15px">
+    <label  class="form-label text-secondary">Qtd Moradores Apto</label>
+    <input  class="form-control" id="qtdmoradores">
   </div>
 
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
+  <div class="col-12"style="margin-top:-15px;margin-left:70px">
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
   </div>
 </form>
 
